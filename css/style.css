@@ -74,6 +74,7 @@ body {
   letter-spacing: 1px;
   text-decoration: none;
   cursor: pointer;
+  align-items: center;
   box-shadow: inset 0 0 0 0 #ffffff;
   -webkit-transition: ease-out 0.4s;
   -moz-transition: ease-out 0.4s;

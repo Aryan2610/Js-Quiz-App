@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Congrats</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="home end">
+      <div id="end">
+        <h1 id="finalScore" class="heading-score"></h1>
+        <form>
+          <input
+            style="font-family: Roboto Condensed, sans serif"
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Enter Username"
+          />
+          <button
+            type="submit"
+            class="btn btn1 btn-media-end"
+            id="saveScoreBtn"
+            onclick="saveHighScore(event)"
+            disabled
+          >
+            Save
+          </button>
+        </form>
+        <a class="btn btn2 btn-media-end top" href="game.html">Play Again</a>
+        <a class="btn btn3 btn-media-end" href="index.html">Go Home</a>
+      </div>
+    </div>
+    <script src="js/end.js"></script>
+  </body>
+</html>

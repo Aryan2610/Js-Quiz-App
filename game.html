@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Let's Play a Quiz</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <div id="loader"></div>
+      <div id="game" class="hidden">
+        <div id="hud">
+          <div id="hud-item">
+            <p id="progressText" class="hud-prefix left">Question</p>
+            <div id="progressBar">
+              <div id="progressBarFull"></div>
+            </div>
+          </div>
+          <div id="hud-item">
+            <p class="hud-prefix right">Score</p>
+            <h1 class="hud-main-text" id="score">0</h1>
+          </div>
+        </div>
+        <h2 id="question" class="question"></h2>
+        <div class="choice-container">
+          <p class="choice-prefix">A</p>
+          <p class="choice-text" data-number="1"></p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">B</p>
+          <p class="choice-text" data-number="2"></p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">C</p>
+          <p class="choice-text" data-number="3"></p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">D</p>
+          <p class="choice-text" data-number="4"></p>
+        </div>
+      </div>
+    </div>
+    <script src="js/game.js"></script>
+  </body>
+</html>

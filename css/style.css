@@ -266,6 +266,7 @@ body {
   #loader {
     width: 8rem;
     height: 8rem;
+    left: 40%;
   }
   .game-container {
     width: 100%;
